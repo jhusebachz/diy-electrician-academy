@@ -4,7 +4,7 @@ Last updated: 2026-05-13
 
 ## Current Phase
 
-MVP build complete. Local Expo dev server is running at `http://localhost:8081`.
+MVP build complete. Start the local Expo dev server with `npx expo start --localhost --port 8081`.
 
 ## Completed
 
@@ -27,6 +27,7 @@ MVP build complete. Local Expo dev server is running at `http://localhost:8081`.
 - Expo Android export passed.
 - Expo Doctor passed 17/17 checks.
 - Production dependency audit passed with 0 vulnerabilities after a narrow `postcss` override.
+- Background Expo server start was attempted, but Metro did not remain listening after the shell returned in this environment.
 
 ## Next
 
